@@ -9,6 +9,8 @@ Phase 2: Flagship Project Buildout
 
 Phase 3: Packaging, Outreach, and Conversion
 
+Lock the v1 stack as Flask, SQLite, HTML, CSS, and JavaScript. No stack switching during the roadmap unless something critical breaks.
+
 ## Identity
 B.Tech CSE (Cybersecurity) student building AI tools, automation systems, and security-aware applications.
 
