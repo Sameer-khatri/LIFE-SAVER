@@ -1,0 +1,2254 @@
+{
+  "app_name": "LIFE SAVER",
+  "version": "v1-daily-task-seed",
+  "tasks": [
+    {
+      "week": 1,
+      "day": 1,
+      "title": "Lock The Mission",
+      "main_goal": "Define the journey inside the system.",
+      "build_task": [
+        "Create the LIFE SAVER repository.",
+        "Create the initial project folders.",
+        "Write the mission statement.",
+        "Define the three phases and twelve week names in seed form."
+      ],
+      "support_task": [
+        "Lock the v1 stack as Flask, SQLite, HTML, CSS, and JavaScript."
+      ],
+      "planned_output": [
+        "Repository initialized.",
+        "Folder structure created.",
+        "Mission and week seed draft written."
+      ],
+      "evidence_required": [
+        "First commit.",
+        "Screenshot of project structure.",
+        "README with one-paragraph product definition."
+      ],
+      "anti_distraction_warning": [
+        "Do not spend hours on UI inspiration sites.",
+        "Do not compare frameworks today."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "title": "App Skeleton",
+      "main_goal": "Make the app run locally.",
+      "build_task": [
+        "Create the Flask app.",
+        "Create a base layout.",
+        "Add routes for dashboard, roadmap, daily check-in, and weekly review.",
+        "Make each page load without crashing."
+      ],
+      "support_task": [
+        "Learn only enough Flask routing and templates to finish the skeleton."
+      ],
+      "planned_output": [
+        "Local app opens in the browser.",
+        "Four pages render successfully."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of all four pages opening.",
+        "Short note explaining how routes and templates connect."
+      ],
+      "anti_distraction_warning": [
+        "Ugly UI is acceptable.",
+        "Working routes matter more than styling."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 3,
+      "title": "Database Setup",
+      "main_goal": "Create the truth layer.",
+      "build_task": [
+        "Create the SQLite database.",
+        "Implement mission, weeks, daily_tasks, daily_checkins, evidence_logs, and weekly_reviews tables.",
+        "Make table creation happen automatically on app startup."
+      ],
+      "support_task": [
+        "Understand only the CRUD needed for this app."
+      ],
+      "planned_output": [
+        "Database file created.",
+        "Core tables initialize automatically."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Terminal or screenshot proof of tables created.",
+        "Short note describing what each table stores."
+      ],
+      "anti_distraction_warning": [
+        "Do not add an ORM.",
+        "Do not switch to PostgreSQL this week."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 4,
+      "title": "Daily Check-In Working",
+      "main_goal": "Log one real day into the system.",
+      "build_task": [
+        "Create the daily check-in form.",
+        "Save what I built, what I learned, blockers, distraction, deep work minutes, and day verdict into daily_checkins.",
+        "Display one saved check-in back in the app."
+      ],
+      "support_task": [
+        "Add validation so blank submissions do not pass."
+      ],
+      "planned_output": [
+        "One form submission saved and visible."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of filled form.",
+        "Proof of saved row in the database."
+      ],
+      "anti_distraction_warning": [
+        "No charts yet.",
+        "No animations yet."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 5,
+      "title": "Day-Wise Task Engine",
+      "main_goal": "Make the system tell you what to do today.",
+      "build_task": [
+        "Seed the daily_tasks data for Week 1.",
+        "Build a card or page that shows today's main task, planned output, evidence required, distraction risk, and status.",
+        "Pull today's task from the database instead of hardcoding it."
+      ],
+      "support_task": [
+        "Seed all seven Week 1 tasks manually."
+      ],
+      "planned_output": [
+        "Dashboard shows today's actual task from the database."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of today task card.",
+        "Screenshot of Week 1 tasks in the database."
+      ],
+      "anti_distraction_warning": [
+        "Do not build auto-scheduling logic yet.",
+        "Manual seed data is fine."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 6,
+      "title": "Evidence Log + Scoring V1",
+      "main_goal": "Connect action to proof.",
+      "build_task": [
+        "Build the evidence log form.",
+        "Store evidence types such as commit, feature, bugfix, README, and demo.",
+        "Create simple build, focus, and internship score cards that react to evidence."
+      ],
+      "support_task": [
+        "Keep scoring visible and simple instead of trying to make it perfect."
+      ],
+      "planned_output": [
+        "Evidence entry is saved.",
+        "Dashboard score updates after at least one evidence item."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of evidence log entry.",
+        "Screenshot of score card changing."
+      ],
+      "anti_distraction_warning": [
+        "Do not over-engineer scoring rules.",
+        "Simple working math beats fake intelligence."
+      ]
+    },
+    {
+      "week": 1,
+      "day": 7,
+      "title": "Weekly Review + Cleanup",
+      "main_goal": "Close the loop and make the app usable.",
+      "build_task": [
+        "Create the weekly review page.",
+        "Add fields for week goal, shipped work, incomplete work, biggest distraction, week verdict, and next week correction.",
+        "Clean the README.",
+        "Push the polished Week 1 state to GitHub."
+      ],
+      "support_task": [
+        "Write one honest review of the real Week 1."
+      ],
+      "planned_output": [
+        "Weekly review saved.",
+        "Repo becomes readable.",
+        "App is demoable."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "GitHub push.",
+        "Screenshot of weekly review.",
+        "Updated README with setup and screenshots."
+      ],
+      "anti_distraction_warning": [
+        "No just-one-more-feature spiral.",
+        "Finish and polish what already exists."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 1,
+      "title": "Lock PromptShield v0 Scope",
+      "main_goal": "Define exactly what the first version will detect.",
+      "build_task": [
+        "Create the PromptShield repository.",
+        "Write the v0 scope in README.",
+        "Create sample_cases.json with fifteen sample inputs.",
+        "Choose the first four risk categories."
+      ],
+      "support_task": [
+        "Read only enough about prompt injection and phishing wording to create better sample cases."
+      ],
+      "planned_output": [
+        "Repository initialized.",
+        "README scope written.",
+        "Sample input dataset created."
+      ],
+      "evidence_required": [
+        "First commit.",
+        "Screenshot of repo structure.",
+        "sample_cases.json committed."
+      ],
+      "anti_distraction_warning": [
+        "Do not build UI first.",
+        "Do not think about deployment today.",
+        "Do not compare five project ideas."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 2,
+      "title": "App Skeleton + Analyze Route",
+      "main_goal": "Get a working local app shell.",
+      "build_task": [
+        "Create the Flask app.",
+        "Add one page with a textarea and submit button.",
+        "Create the /analyze route.",
+        "Show a placeholder result card after submit."
+      ],
+      "support_task": [
+        "Understand how form input moves from frontend to backend and back."
+      ],
+      "planned_output": [
+        "Local app runs.",
+        "User can submit text and get a result page."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of input page.",
+        "Screenshot of placeholder result page.",
+        "Short note explaining request flow."
+      ],
+      "anti_distraction_warning": [
+        "Ugly UI is fine.",
+        "Backend flow matters more than design."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 3,
+      "title": "Detector 1 - Prompt Injection + Jailbreak Signals",
+      "main_goal": "Make the app catch obvious attack-style prompt patterns.",
+      "build_task": [
+        "Create a detector module.",
+        "Add rules for ignore previous instructions, system prompt reveal, act as root or admin, bypass safety, and do not follow earlier rules.",
+        "Return matched patterns and severity."
+      ],
+      "support_task": [
+        "Tune the rules using the sample cases from Day 1."
+      ],
+      "planned_output": [
+        "Working detection for prompt injection and jailbreak language."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of three risky inputs with matched rules.",
+        "One note on false positives noticed."
+      ],
+      "anti_distraction_warning": [
+        "Do not chase perfection.",
+        "Catching obvious risky language is enough for this week."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 4,
+      "title": "Detector 2 - Phishing + Sensitive Data Requests",
+      "main_goal": "Add the more cyber-looking layer.",
+      "build_task": [
+        "Detect urgent login or payment requests.",
+        "Detect OTP, password, API key, bank, and credential harvest patterns.",
+        "Detect requests for secret, private, or internal data.",
+        "Add a second detector result block."
+      ],
+      "support_task": [
+        "Create five extra sample cases that look like phishing or secret extraction attempts."
+      ],
+      "planned_output": [
+        "App detects both prompt abuse and phishing or data-seeking patterns."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of phishing-style sample flagged.",
+        "Updated sample dataset committed."
+      ],
+      "anti_distraction_warning": [
+        "No email parser yet.",
+        "No OCR.",
+        "No browser extension ideas this week."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 5,
+      "title": "Scoring Engine + Verdict System",
+      "main_goal": "Turn raw detections into something useful.",
+      "build_task": [
+        "Combine detector outputs into a zero-to-one-hundred risk score.",
+        "Add verdict labels: low, medium, high, and critical.",
+        "Show why the score was assigned.",
+        "Show recommended action."
+      ],
+      "support_task": [
+        "Write the scoring rules in plain English in the repo."
+      ],
+      "planned_output": [
+        "Risk score and verdict shown for each input."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of at least four different verdicts.",
+        "SCORING document or README section explaining logic."
+      ],
+      "anti_distraction_warning": [
+        "Simple scoring is enough.",
+        "Do not spend all day tuning tiny score differences."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 6,
+      "title": "Testing + Evidence Quality Day",
+      "main_goal": "Prove the project is real and not just a demo shell.",
+      "build_task": [
+        "Run all sample cases through the app.",
+        "Note where the logic fails.",
+        "Fix at least three weak detections.",
+        "Add a basic scan history log or JSON export if time allows."
+      ],
+      "support_task": [
+        "Write what the tool catches well, what it misses, and what should come in v1.1."
+      ],
+      "planned_output": [
+        "Tested project with improved logic.",
+        "At least fifteen to twenty working cases."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of test results or scan history.",
+        "LIMITATIONS note or README section.",
+        "Week evidence updated in LIFE SAVER."
+      ],
+      "anti_distraction_warning": [
+        "Do not start the next feature.",
+        "Make this version stable and explainable first."
+      ]
+    },
+    {
+      "week": 2,
+      "day": 7,
+      "title": "Polish + Publish + Review",
+      "main_goal": "Make Week 2 interview-usable.",
+      "build_task": [
+        "Clean the code lightly.",
+        "Improve README with what it does, why it matters, how to run, screenshots, and current limitations.",
+        "Push the final Week 2 version to GitHub.",
+        "Fill the Week 2 review inside LIFE SAVER."
+      ],
+      "support_task": [
+        "Write one honest paragraph about what was built, understood, and still confusing."
+      ],
+      "planned_output": [
+        "Clean repo.",
+        "Demoable local project.",
+        "Finished weekly review."
+      ],
+      "evidence_required": [
+        "GitHub push.",
+        "Updated README.",
+        "Screenshot of final app.",
+        "Week 2 review logged in LIFE SAVER."
+      ],
+      "anti_distraction_warning": [
+        "No extra features after polish starts.",
+        "Finish the week cleanly."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 1,
+      "title": "Refactor PromptShield Into Real Modules",
+      "main_goal": "Stop letting the app become one messy file.",
+      "build_task": [
+        "Split the project into detectors, scoring, services, utils, templates, and static modules.",
+        "Move rule logic out of route handlers.",
+        "Create one clean flow from input to detect to score to result."
+      ],
+      "support_task": [
+        "Write a short architecture note showing how the modules connect."
+      ],
+      "planned_output": [
+        "Cleaner file structure.",
+        "App still works after refactor."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of repo structure.",
+        "Architecture note or README update."
+      ],
+      "anti_distraction_warning": [
+        "Do not rewrite everything.",
+        "Refactor only what improves clarity."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 2,
+      "title": "Add Scan History + Result Persistence",
+      "main_goal": "Make scans traceable.",
+      "build_task": [
+        "Add SQLite or JSON-based scan history.",
+        "Save raw or safe input preview, categories, score, verdict, and timestamp.",
+        "Create a simple scan history page or table."
+      ],
+      "support_task": [
+        "Decide what should be stored raw and what should be masked."
+      ],
+      "planned_output": [
+        "Every scan creates a saved result.",
+        "History page shows previous scans."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of history page.",
+        "Proof of saved scan rows."
+      ],
+      "anti_distraction_warning": [
+        "No analytics dashboard yet.",
+        "Basic persistence is enough."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 3,
+      "title": "Add AI-Assisted Explanation Layer",
+      "main_goal": "Use AI as a second opinion, not as blind magic.",
+      "build_task": [
+        "Add an optional LLM call that receives detected categories, risk score, and sanitized input.",
+        "Ask for structured output such as threat summary, why risky, confidence, and suggested action.",
+        "Keep rule-based output working even if AI fails."
+      ],
+      "support_task": [
+        "Constrain the AI response and document fallback behavior."
+      ],
+      "planned_output": [
+        "Result view shows AI explanation under the rule-based result."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of one result with AI explanation.",
+        "Note explaining fallback behavior when model call fails."
+      ],
+      "anti_distraction_warning": [
+        "Do not let the model replace your scoring engine.",
+        "AI explains; rules decide."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 4,
+      "title": "Sensitive Data Redaction + Safe Analysis Flow",
+      "main_goal": "Make the architecture more security-aware.",
+      "build_task": [
+        "Detect and mask emails, phone numbers, API keys, tokens, passwords, and OTP-like phrases before AI analysis.",
+        "Show original preview and sanitized version used for analysis.",
+        "Add clear logic for when raw content must never be forwarded."
+      ],
+      "support_task": [
+        "Write the rule for when raw content should never leave the system."
+      ],
+      "planned_output": [
+        "Sanitized analysis flow works.",
+        "User can see that redaction happened."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of redacted output.",
+        "Short note on why redaction matters."
+      ],
+      "anti_distraction_warning": [
+        "No encryption rabbit hole.",
+        "Focus on masking and safe flow."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 5,
+      "title": "Safer Rewrite + Better Result UX",
+      "main_goal": "Make the app useful, not just diagnostic.",
+      "build_task": [
+        "Add recommended safe rewrite or safe handling advice.",
+        "Improve result layout to clearly show score, categories, matched signals, AI explanation, recommended action, and safer alternative.",
+        "Define allow, review manually, sanitize and retry, and block actions."
+      ],
+      "support_task": [
+        "Keep the action language clear enough to feel like a real security tool."
+      ],
+      "planned_output": [
+        "Final results page feels like a real security tool."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of improved result layout.",
+        "Three examples showing different actions."
+      ],
+      "anti_distraction_warning": [
+        "No design perfectionism.",
+        "Clarity beats beauty this week."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 6,
+      "title": "Adversarial Testing + False Positive Cleanup",
+      "main_goal": "Make the tool more credible.",
+      "build_task": [
+        "Create ten more test cases including tricky benign prompts, hidden instruction attempts, phishing-like urgency prompts, and secret extraction requests.",
+        "Compare expected result versus actual result.",
+        "Fix at least three weak spots.",
+        "Document false positives and misses."
+      ],
+      "support_task": [
+        "Use the new cases to tighten the detector, not to inflate the feature list."
+      ],
+      "planned_output": [
+        "Stronger test set.",
+        "Improved detector quality."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Test case file committed.",
+        "Note listing at least three improvements made after testing."
+      ],
+      "anti_distraction_warning": [
+        "Do not start a new feature before testing this one properly."
+      ]
+    },
+    {
+      "week": 3,
+      "day": 7,
+      "title": "Publish, Explain, and Connect It To Your Journey",
+      "main_goal": "Turn PromptShield into portfolio proof.",
+      "build_task": [
+        "Clean the README with problem statement, why it matters, architecture flow, screenshots, example cases, limitations, and future improvements.",
+        "Push the final Week 3 version to GitHub.",
+        "Create a short demo video or GIF.",
+        "Log the week inside LIFE SAVER."
+      ],
+      "support_task": [
+        "Write one interview paragraph describing what PromptShield does, how it works, what security problem it solves, and what you learned."
+      ],
+      "planned_output": [
+        "Portfolio-ready repo.",
+        "Polished explanation.",
+        "Complete weekly review."
+      ],
+      "evidence_required": [
+        "GitHub push.",
+        "Updated README.",
+        "Demo link or screen recording.",
+        "Week 3 review saved in LIFE SAVER."
+      ],
+      "anti_distraction_warning": [
+        "No last-minute feature creep.",
+        "Polish and explanation are the finish line."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 1,
+      "title": "LIFE SAVER Review + Friction Fixes",
+      "main_goal": "Make LIFE SAVER usable as a daily system, not just a build artifact.",
+      "build_task": [
+        "Use LIFE SAVER exactly as intended for one real day.",
+        "List friction points such as confusing fields, missing fields, annoying steps, and unclear score logic.",
+        "Fix the top three usability issues."
+      ],
+      "support_task": [
+        "Write a short note answering what makes you avoid using the app."
+      ],
+      "planned_output": [
+        "Three practical improvements in LIFE SAVER."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Before and after screenshots if useful.",
+        "Note listing the three fixes made."
+      ],
+      "anti_distraction_warning": [
+        "Do not redesign everything.",
+        "Fix friction, not aesthetics."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 2,
+      "title": "Codex Context Export + Weekly Truth Layer",
+      "main_goal": "Make the app more useful as a coaching interface.",
+      "build_task": [
+        "Create codex-context.md export.",
+        "Include current week, main goal, what was shipped, blockers, distraction pattern, and next recommended focus.",
+        "Create JSON exports for daily check-ins, weekly review, and evidence summary."
+      ],
+      "support_task": [
+        "Decide what summary is most useful for future coaching."
+      ],
+      "planned_output": [
+        "Simple export flow that generates context files."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of export page or generated files.",
+        "Sample codex-context.md."
+      ],
+      "anti_distraction_warning": [
+        "Keep exports simple and readable.",
+        "No fancy automation yet."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 3,
+      "title": "PromptShield Stability Pass",
+      "main_goal": "Remove obvious rough edges before calling it portfolio-worthy.",
+      "build_task": [
+        "Fix three to five real issues such as messy output, bad redaction cases, inconsistent score, poor error handling, or empty input validation.",
+        "Improve messages when analysis fails.",
+        "Create a Known Issues note and close at least three items."
+      ],
+      "support_task": [
+        "Prioritize real cracks over hypothetical scaling issues."
+      ],
+      "planned_output": [
+        "PromptShield feels more stable and less hacky."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Issue list before and after.",
+        "Screenshot of improved behavior."
+      ],
+      "anti_distraction_warning": [
+        "Fix real cracks, not future fantasy problems."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 4,
+      "title": "GitHub Positioning Day",
+      "main_goal": "Make your public profile match your actual direction.",
+      "build_task": [
+        "Improve your GitHub profile README.",
+        "Align it around AI systems, automation, and secure AI tooling.",
+        "Highlight LIFE SAVER, PromptShield, and one older relevant project."
+      ],
+      "support_task": [
+        "Remove vague claims and replace them with proof-based lines."
+      ],
+      "planned_output": [
+        "Stronger GitHub profile presentation."
+      ],
+      "evidence_required": [
+        "Commit to the profile README.",
+        "Before and after copy.",
+        "Screenshot of updated profile."
+      ],
+      "anti_distraction_warning": [
+        "Do not inflate skills.",
+        "Make the profile sharper, not more crowded."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 5,
+      "title": "Resume Draft Day",
+      "main_goal": "Stop saying you do not have a resume.",
+      "build_task": [
+        "Create the first real resume draft.",
+        "Include headline, education, skills, projects, tools, and links.",
+        "Add PromptShield, LIFE SAVER, and one older relevant project."
+      ],
+      "support_task": [
+        "Write project bullets around the problem, stack, and built outcome."
+      ],
+      "planned_output": [
+        "Resume version one in document or markdown form."
+      ],
+      "evidence_required": [
+        "Resume draft created.",
+        "Screenshot or PDF export.",
+        "Three polished project bullets."
+      ],
+      "anti_distraction_warning": [
+        "Resume does not need to be perfect.",
+        "Version one is the win."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 6,
+      "title": "Demo + Explanation Day",
+      "main_goal": "Prove you can present your work, not just build it.",
+      "build_task": [
+        "Record or rehearse a short demo of LIFE SAVER and PromptShield.",
+        "Prepare answers for what problem each solves, how it works, what decisions you made, and what you would improve next."
+      ],
+      "support_task": [
+        "Practice speaking about the projects without reading code."
+      ],
+      "planned_output": [
+        "Demo recording or strong rehearsal script.",
+        "Project explanation notes."
+      ],
+      "evidence_required": [
+        "Demo file or script.",
+        "Written explanation answers.",
+        "Self-review note on weak speaking points."
+      ],
+      "anti_distraction_warning": [
+        "No building new features during demo prep.",
+        "This day is about articulation."
+      ]
+    },
+    {
+      "week": 4,
+      "day": 7,
+      "title": "Month 1 Review + Phase 2 Lock-In",
+      "main_goal": "Close the first month honestly and prepare for the next phase.",
+      "build_task": [
+        "Complete the Week 4 review in LIFE SAVER.",
+        "Write a Month 1 review note covering what you shipped, how your identity changed, what still feels weak, and what Phase 2 must focus on.",
+        "Update the twelve-week roadmap status in LIFE SAVER."
+      ],
+      "support_task": [
+        "Define the Phase 2 flagship focus clearly as PromptShield v1."
+      ],
+      "planned_output": [
+        "Finished first-month review.",
+        "Clear entry into Weeks 5 through 8."
+      ],
+      "evidence_required": [
+        "Week review saved.",
+        "Month review written.",
+        "Roadmap updated.",
+        "GitHub pushed if changes remain."
+      ],
+      "anti_distraction_warning": [
+        "Do not start Phase 2 work today.",
+        "Today is for closure and clarity."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 1,
+      "title": "Lock PromptShield v1 Product Shape",
+      "main_goal": "Define what PromptShield v1 actually is.",
+      "build_task": [
+        "Write a v1 scope section in README.",
+        "Define the three core surfaces: scan input, incident queue, and incident detail.",
+        "Define the scan record structure with input type, sanitized text, categories, score, verdict, action, and review status."
+      ],
+      "support_task": [
+        "Sketch the page flow on paper or markdown."
+      ],
+      "planned_output": [
+        "Locked v1 scope.",
+        "Screen flow written.",
+        "Scan record format decided."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Updated README with v1 scope.",
+        "Sketch or markdown flow."
+      ],
+      "anti_distraction_warning": [
+        "Do not add future-maybe features to v1.",
+        "Do not touch styling first."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 2,
+      "title": "Build the Core API Layer",
+      "main_goal": "Make the backend feel like a real app service.",
+      "build_task": [
+        "Add POST /api/scan, GET /api/scans, and GET /api/scans/<id> endpoints.",
+        "Save scan results to the database.",
+        "Return structured JSON instead of loose strings."
+      ],
+      "support_task": [
+        "Understand the request and response shapes well enough to explain them."
+      ],
+      "planned_output": [
+        "Working scan API.",
+        "Saved scan records.",
+        "Fetchable scan list."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "API test screenshot or curl output.",
+        "Short note describing each endpoint."
+      ],
+      "anti_distraction_warning": [
+        "No Swagger rabbit hole.",
+        "No auth tokens yet."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 3,
+      "title": "Build the Incident Queue UI",
+      "main_goal": "Turn saved scans into something a user can review.",
+      "build_task": [
+        "Create the queue or history page.",
+        "Show timestamp, short input preview, score, verdict, category badges, and review status.",
+        "Add sorting by newest first and highest risk first."
+      ],
+      "support_task": [
+        "Decide what should be visible at a glance for fast triage."
+      ],
+      "planned_output": [
+        "Queue page works with real saved data."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of queue page.",
+        "At least five saved example records visible."
+      ],
+      "anti_distraction_warning": [
+        "No chart dashboard today.",
+        "List view is enough."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 4,
+      "title": "Build the Incident Detail Page",
+      "main_goal": "Make each scan inspectable and explainable.",
+      "build_task": [
+        "Create a detail page for one scan.",
+        "Show original preview, sanitized text, matched rules, score breakdown, AI explanation, recommended action, and safer rewrite if available."
+      ],
+      "support_task": [
+        "Make the detail page readable enough to explain in an interview."
+      ],
+      "planned_output": [
+        "Full detail page works from real scan history."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of detail page.",
+        "Short note on how a scan becomes a verdict."
+      ],
+      "anti_distraction_warning": [
+        "No visual perfectionism.",
+        "Clarity matters more than polish."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 5,
+      "title": "Add Analyst Review + False Positive Loop",
+      "main_goal": "Make PromptShield feel more like a security workflow tool.",
+      "build_task": [
+        "Add review actions such as unreviewed, confirmed-risk, false-positive, and needs-manual-review.",
+        "Let the analyst add notes.",
+        "Show review state in queue and detail view."
+      ],
+      "support_task": [
+        "Think about how this feedback will improve detections later."
+      ],
+      "planned_output": [
+        "Review loop works end to end."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of one reviewed incident.",
+        "Screenshot of status change reflected in the queue."
+      ],
+      "anti_distraction_warning": [
+        "No machine learning retraining ideas yet.",
+        "Keep feedback manual and simple."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 6,
+      "title": "Build a Real Test Harness",
+      "main_goal": "Prove quality with cases, not feelings.",
+      "build_task": [
+        "Create a test_cases file with benign prompts, risky prompts, phishing-like text, secret-seeking text, and ambiguous edge cases.",
+        "Run them through the system.",
+        "Record expected verdict, actual verdict, and mismatch notes.",
+        "Fix at least three real issues."
+      ],
+      "support_task": [
+        "Write a small evaluation note about strengths, misses, and false positives."
+      ],
+      "planned_output": [
+        "Repeatable test set.",
+        "Improved detection quality."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Test case file committed.",
+        "Evaluation note committed.",
+        "Proof that three fixes were made from testing."
+      ],
+      "anti_distraction_warning": [
+        "Do not skip testing because the app looks done.",
+        "Testing is the real work today."
+      ]
+    },
+    {
+      "week": 5,
+      "day": 7,
+      "title": "Package Week 5 Like a Builder",
+      "main_goal": "Make Week 5 visible and explainable.",
+      "build_task": [
+        "Update README with product purpose, architecture, API endpoints, queue-detail workflow, review loop, and limitations.",
+        "Record a short demo or prepare a clean demo script.",
+        "Complete Week 5 review inside LIFE SAVER."
+      ],
+      "support_task": [
+        "Write interview bullets on why you built it, how detection works, why analyst review exists, and what v2 would improve."
+      ],
+      "planned_output": [
+        "Portfolio-ready Week 5 version.",
+        "Clear repo story.",
+        "Complete weekly review."
+      ],
+      "evidence_required": [
+        "GitHub push.",
+        "Updated README.",
+        "Demo video or script.",
+        "Week 5 review logged in LIFE SAVER."
+      ],
+      "anti_distraction_warning": [
+        "No last-day feature spree.",
+        "Packaging and explanation are part of the build."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 1,
+      "title": "Define Input Modes + Category Map",
+      "main_goal": "Make the product model more realistic.",
+      "build_task": [
+        "Define input modes such as prompt, email, and message.",
+        "Map categories by mode, such as injection and jailbreak for prompt, and phishing or credential harvest for email."
+      ],
+      "support_task": [
+        "Write a simple table in README or docs showing mode-to-category logic."
+      ],
+      "planned_output": [
+        "Clear input mode model.",
+        "Category logic written down."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Updated docs with input mode table.",
+        "Screenshot of notes if useful."
+      ],
+      "anti_distraction_warning": [
+        "No unlimited mode list.",
+        "Two or three modes are enough."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 2,
+      "title": "Add Input Type Selection to UI + Backend",
+      "main_goal": "Make the app aware of what it is analyzing.",
+      "build_task": [
+        "Add an input type dropdown or segmented control in the UI.",
+        "Pass input type into the backend.",
+        "Save input type in scan records.",
+        "Adapt result headers based on selected mode."
+      ],
+      "support_task": [
+        "Keep the UI simple while adding mode awareness."
+      ],
+      "planned_output": [
+        "User can choose input type before analysis.",
+        "Scan records include input mode."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of input type selector.",
+        "Screenshot of saved scan showing mode."
+      ],
+      "anti_distraction_warning": [
+        "No full front-end redesign.",
+        "Just wire mode support properly."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 3,
+      "title": "Build Email-Focused Detection Layer",
+      "main_goal": "Make PromptShield useful for a more cyber-relevant scenario.",
+      "build_task": [
+        "Add detection rules for urgent account action, invoice or payment manipulation, credential requests, impersonation tone, suspicious urgency, and attachment pressure wording.",
+        "Show these signals separately from prompt-injection signals."
+      ],
+      "support_task": [
+        "Prepare ten email-style cases across benign, suspicious, obvious phishing, and borderline manipulation examples."
+      ],
+      "planned_output": [
+        "Email mode has meaningful detection logic."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Sample email test set committed.",
+        "Screenshot of flagged email examples."
+      ],
+      "anti_distraction_warning": [
+        "No SMTP, inbox integration, or real email fetching.",
+        "Pasted sample content is enough."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 4,
+      "title": "Improve Result Explanation By Mode",
+      "main_goal": "Make outputs feel more professional and context-aware.",
+      "build_task": [
+        "Adapt result language by mode so prompt mode talks about instruction override, email mode talks about social engineering, and message mode talks about suspicious requests.",
+        "Update recommended actions by mode."
+      ],
+      "support_task": [
+        "Define action text that sounds like analyst reasoning instead of generic chatbot output."
+      ],
+      "planned_output": [
+        "Results feel more domain-aware and less generic."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshots of at least three different mode-based outputs.",
+        "Docs note showing action mapping by mode."
+      ],
+      "anti_distraction_warning": [
+        "Do not chase perfect wording all day.",
+        "Useful differentiation is enough."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 5,
+      "title": "Add Simple File/Text Import Path",
+      "main_goal": "Support one realistic non-paste workflow.",
+      "build_task": [
+        "Allow the user to upload a simple text file or paste a larger text block.",
+        "Read content safely.",
+        "Pass it through the same analysis flow.",
+        "Store filename if uploaded."
+      ],
+      "support_task": [
+        "Validate file type and size and handle bad input gracefully."
+      ],
+      "planned_output": [
+        "File-based analysis works for plain text."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of uploaded text file analysis.",
+        "Note explaining file handling safety limits."
+      ],
+      "anti_distraction_warning": [
+        "No PDF support this week.",
+        "Text files are enough."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 6,
+      "title": "Evaluation Day - Realistic Scenarios",
+      "main_goal": "Make the product feel grounded in real use cases.",
+      "build_task": [
+        "Build scenario bundles for prompt injection, phishing email, internal sensitive request, and benign team messages.",
+        "Run evaluation across them.",
+        "Record total cases, correct classifications, weak spots, and improve at least three logic areas."
+      ],
+      "support_task": [
+        "Create an evaluation summary table."
+      ],
+      "planned_output": [
+        "PromptShield tested across more realistic contexts."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Evaluation file or markdown summary.",
+        "Proof of fixes made from scenario testing."
+      ],
+      "anti_distraction_warning": [
+        "No new features before testing is complete."
+      ]
+    },
+    {
+      "week": 6,
+      "day": 7,
+      "title": "Product Story + Weekly Close",
+      "main_goal": "Package Week 6 like a real product improvement cycle.",
+      "build_task": [
+        "Update README with supported input modes, file support, email-focused detection, and realistic scenarios tested.",
+        "Update screenshots or demo.",
+        "Complete Week 6 review in LIFE SAVER."
+      ],
+      "support_task": [
+        "Write a short product story explaining why PromptShield is more than a prompt checker now."
+      ],
+      "planned_output": [
+        "Stronger repo positioning.",
+        "Full Week 6 review."
+      ],
+      "evidence_required": [
+        "GitHub push.",
+        "Updated README.",
+        "New screenshots or demo notes.",
+        "Week 6 review saved."
+      ],
+      "anti_distraction_warning": [
+        "Do not start advanced integrations today.",
+        "Finish the story of this week properly."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 1,
+      "title": "Lock Week 7 Scope",
+      "main_goal": "Define exactly what analyst workstation means for this version.",
+      "build_task": [
+        "Write Week 7 scope in README or notes.",
+        "Lock the additions to overview dashboard, analyst note improvements, report export, and simple tuning config.",
+        "Decide what is explicitly out of scope."
+      ],
+      "support_task": [
+        "Review Week 6 pain points and choose only the most useful ones."
+      ],
+      "planned_output": [
+        "Week 7 scope locked.",
+        "No feature confusion for the rest of the week."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Week 7 scope note committed.",
+        "Short list of in-scope versus out-of-scope features."
+      ],
+      "anti_distraction_warning": [
+        "Do not add another mode.",
+        "Do not start deployment today."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 2,
+      "title": "Build the Overview Dashboard",
+      "main_goal": "Make PromptShield show the bigger picture, not just one scan at a time.",
+      "build_task": [
+        "Create a dashboard page with total scans, high-risk scans, critical scans, false positives, confirmed risks, and most common category.",
+        "Add a recent incidents list.",
+        "Add a simple filter such as last seven days if easy."
+      ],
+      "support_task": [
+        "Define what metrics are actually useful for a small security tool."
+      ],
+      "planned_output": [
+        "Overview page built from real stored data."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of dashboard page.",
+        "Proof that cards read real database values."
+      ],
+      "anti_distraction_warning": [
+        "No complex charts yet.",
+        "Cards and tables are enough."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 3,
+      "title": "Improve Analyst Review Workflow",
+      "main_goal": "Make review more useful than just changing a status.",
+      "build_task": [
+        "Extend review fields with analyst note, false positive reason, confidence override, and final action taken.",
+        "Update detail page to save and display those fields.",
+        "Show review summary in the queue list."
+      ],
+      "support_task": [
+        "Define clean review options instead of random text everywhere."
+      ],
+      "planned_output": [
+        "Review workflow feels more realistic and informative."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of filled analyst review section.",
+        "Screenshot of queue reflecting review updates."
+      ],
+      "anti_distraction_warning": [
+        "Do not build a giant audit system.",
+        "Keep the workflow simple and useful."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 4,
+      "title": "Add Incident Report Export",
+      "main_goal": "Make each scan portable and interview-friendly.",
+      "build_task": [
+        "Add export for a scan as Markdown or HTML.",
+        "Include scan id, timestamp, input mode, sanitized content, categories, score, verdict, AI explanation, analyst review, and recommended action."
+      ],
+      "support_task": [
+        "Create one report template that looks clean and professional."
+      ],
+      "planned_output": [
+        "One-click export from the detail page."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of export action.",
+        "Sample exported report file."
+      ],
+      "anti_distraction_warning": [
+        "Do not chase PDF generation if it wastes time.",
+        "Markdown or HTML is enough."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 5,
+      "title": "Add Tuning Config For Scores",
+      "main_goal": "Show that the product can improve with feedback.",
+      "build_task": [
+        "Move some detector and category weights into a config file.",
+        "Allow manual tuning for prompt injection, phishing urgency, credential request, and sensitive data request weights.",
+        "Document how score changes happen."
+      ],
+      "support_task": [
+        "Use false positives from earlier weeks to adjust at least two weights."
+      ],
+      "planned_output": [
+        "Detector tuning is visible and explainable.",
+        "Scoring feels less hardcoded and more intentional."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Config file committed.",
+        "Before and after examples showing a tuning change."
+      ],
+      "anti_distraction_warning": [
+        "No auto-learning system.",
+        "Manual tuning is enough and better for explanation."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 6,
+      "title": "Quality Pass + Failure Handling",
+      "main_goal": "Reduce rough edges that break trust.",
+      "build_task": [
+        "Improve handling for empty input, too-large input, unsupported file type, AI API failure, and malformed saved record.",
+        "Improve user-facing error messages.",
+        "Run another test pass and fix at least three real issues."
+      ],
+      "support_task": [
+        "Make a small failure-cases checklist and run through it."
+      ],
+      "planned_output": [
+        "Product feels less fragile.",
+        "Failure states are understandable."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Checklist committed.",
+        "Screenshots of improved error handling.",
+        "Note listing three fixes made."
+      ],
+      "anti_distraction_warning": [
+        "No feature creep today.",
+        "Trust comes from robustness."
+      ]
+    },
+    {
+      "week": 7,
+      "day": 7,
+      "title": "Package Week 7 + Public Proof",
+      "main_goal": "Make the week visible as portfolio growth.",
+      "build_task": [
+        "Update README with dashboard overview, analyst review flow, incident export, tuning config, and quality or failure handling.",
+        "Take fresh screenshots.",
+        "Write one LinkedIn post draft or GitHub project note.",
+        "Complete Week 7 review in LIFE SAVER."
+      ],
+      "support_task": [
+        "Write interview-ready talking points about scan review, reporting, tuning, and robust error handling."
+      ],
+      "planned_output": [
+        "Cleaner repo.",
+        "Stronger product story.",
+        "Weekly evidence fully logged."
+      ],
+      "evidence_required": [
+        "GitHub push.",
+        "Updated README.",
+        "Screenshots committed.",
+        "Week 7 review saved."
+      ],
+      "anti_distraction_warning": [
+        "No new feature after polish begins.",
+        "Finish the story of the week cleanly."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 1,
+      "title": "Flagship Audit",
+      "main_goal": "Assess PromptShield like a recruiter or interviewer would.",
+      "build_task": [
+        "Review the whole project under product clarity, code structure, UX clarity, technical explanation, and evidence quality.",
+        "Mark what is strong, weak, and missing before calling it v1.",
+        "Choose the top five improvements for this week."
+      ],
+      "support_task": [
+        "Look at the project as if a stranger had sixty seconds to understand it."
+      ],
+      "planned_output": [
+        "Clear v1 audit checklist.",
+        "Prioritized improvement list."
+      ],
+      "evidence_required": [
+        "Commit or saved note.",
+        "Screenshot of audit checklist.",
+        "Prioritized list."
+      ],
+      "anti_distraction_warning": [
+        "Do not create a thirty-item list.",
+        "Pick only the highest-impact fixes."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 2,
+      "title": "UX and Flow Polish",
+      "main_goal": "Make the product easier to understand and demo.",
+      "build_task": [
+        "Improve navigation between scan input, queue, detail page, and dashboard.",
+        "Make key labels clearer.",
+        "Reduce clutter and improve result readability.",
+        "Test one full flow from scan to review to export."
+      ],
+      "support_task": [
+        "Remove confusion points that block a first-time user."
+      ],
+      "planned_output": [
+        "Cleaner and smoother app flow."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshots of improved flow.",
+        "Short note on what confusion points were removed."
+      ],
+      "anti_distraction_warning": [
+        "No visual redesign marathon.",
+        "Polish flow, not aesthetics for their own sake."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 3,
+      "title": "README Finalization",
+      "main_goal": "Make the repo strong even before someone runs it.",
+      "build_task": [
+        "Rewrite or refine README sections for what PromptShield is, why it matters, who it is for, key features, architecture overview, tech stack, how to run, example use cases, limitations, and future improvements.",
+        "Add clean screenshots."
+      ],
+      "support_task": [
+        "Remove fluff and vague language and write like a builder."
+      ],
+      "planned_output": [
+        "Flagship-grade README."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Updated README.",
+        "Screenshot set added."
+      ],
+      "anti_distraction_warning": [
+        "Do not oversell.",
+        "Credibility beats hype."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 4,
+      "title": "Architecture + Case Study Writeup",
+      "main_goal": "Create the material that proves depth.",
+      "build_task": [
+        "Create ARCHITECTURE or CASE_STUDY document.",
+        "Explain the problem, design choices, detection flow, scoring flow, sanitization logic, AI explanation layer, analyst review loop, and limitations.",
+        "Include one end-to-end example case."
+      ],
+      "support_task": [
+        "Write in simple language you can actually speak in an interview."
+      ],
+      "planned_output": [
+        "One technical case study document."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Architecture or case study file.",
+        "One fully documented example case."
+      ],
+      "anti_distraction_warning": [
+        "Do not turn this into academic writing.",
+        "Practical explanation only."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 5,
+      "title": "Demo Asset Day",
+      "main_goal": "Make PromptShield easy to show quickly.",
+      "build_task": [
+        "Create a two-to-four-minute demo script.",
+        "Record or prepare a flow covering homepage, one prompt abuse case, one phishing or email case, and one review or export flow.",
+        "Write a short note on what this project shows about you."
+      ],
+      "support_task": [
+        "Rehearse speaking clearly without hiding behind jargon."
+      ],
+      "planned_output": [
+        "Ready-to-show demo asset.",
+        "Interview-friendly explanation."
+      ],
+      "evidence_required": [
+        "Demo recording or script.",
+        "Project-proof note.",
+        "Two example scenarios selected."
+      ],
+      "anti_distraction_warning": [
+        "No building during demo prep unless absolutely necessary.",
+        "This day is about presentation."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 6,
+      "title": "Resume + GitHub + Positioning Update",
+      "main_goal": "Connect the flagship project to your profile.",
+      "build_task": [
+        "Update the resume draft with PromptShield as the top project.",
+        "Improve project bullets.",
+        "Update the GitHub profile README if needed so it clearly says AI tools, automation, and security-aware systems."
+      ],
+      "support_task": [
+        "Write strong, proof-based PromptShield bullets."
+      ],
+      "planned_output": [
+        "Stronger resume draft.",
+        "Stronger GitHub positioning."
+      ],
+      "evidence_required": [
+        "Updated resume draft.",
+        "Updated profile README if changed.",
+        "PromptShield bullets written."
+      ],
+      "anti_distraction_warning": [
+        "Do not invent fake metrics.",
+        "Use proof-based language only."
+      ]
+    },
+    {
+      "week": 8,
+      "day": 7,
+      "title": "Phase 2 Closeout + LIFE SAVER Review",
+      "main_goal": "Close the flagship phase honestly and prepare for the internship phase.",
+      "build_task": [
+        "Complete Week 8 review in LIFE SAVER.",
+        "Write a Phase 2 closeout note covering what PromptShield became, what remains weak, what made you stronger technically, and what internship story it now supports.",
+        "Update roadmap status inside LIFE SAVER."
+      ],
+      "support_task": [
+        "Decide that Phase 3 will focus on internship packaging, outreach, supporting project work, and application materials."
+      ],
+      "planned_output": [
+        "Clear closeout of Phase 2.",
+        "Clean handoff into Phase 3."
+      ],
+      "evidence_required": [
+        "Week 8 review saved.",
+        "Phase 2 closeout written.",
+        "Roadmap updated.",
+        "Final GitHub push if needed."
+      ],
+      "anti_distraction_warning": [
+        "Do not start Phase 3 building today.",
+        "Close this phase with discipline."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 1,
+      "title": "Lock Your Positioning Statement",
+      "main_goal": "Define exactly how you present yourself.",
+      "build_task": [
+        "Write the final positioning line.",
+        "Write resume, LinkedIn, and short-intro versions.",
+        "Lock the role targets for AI, GenAI, automation, Python, security automation, and AI product internships."
+      ],
+      "support_task": [
+        "Remove vague lines like passionate learner unless backed by proof."
+      ],
+      "planned_output": [
+        "One clean professional identity statement.",
+        "One locked list of target roles."
+      ],
+      "evidence_required": [
+        "Positioning note saved.",
+        "Final headline draft.",
+        "Target role list written."
+      ],
+      "anti_distraction_warning": [
+        "Do not write twenty versions.",
+        "Choose one lane and stick to it."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 2,
+      "title": "Resume v2 Build Day",
+      "main_goal": "Create the resume you can actually send.",
+      "build_task": [
+        "Create a proper one-page resume.",
+        "Include headline, education, skills, PromptShield, LIFE SAVER, one older relevant project, and links.",
+        "Rewrite bullets to focus on the problem, stack, built outcome, and AI or security angle."
+      ],
+      "support_task": [
+        "Keep the skills section honest and focused."
+      ],
+      "planned_output": [
+        "Resume v2 complete."
+      ],
+      "evidence_required": [
+        "PDF or document exported.",
+        "Three polished project bullet sets.",
+        "Resume stored in the project folder."
+      ],
+      "anti_distraction_warning": [
+        "No Canva rabbit hole.",
+        "Content quality matters more than design polish."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 3,
+      "title": "GitHub + PromptShield Proof Cleanup",
+      "main_goal": "Make your GitHub instantly stronger.",
+      "build_task": [
+        "Polish the GitHub profile README.",
+        "Pin the right repos: PromptShield, LIFE SAVER, and one other strong project.",
+        "Make sure PromptShield has a strong README, screenshots, architecture doc, and clean setup instructions.",
+        "Make LIFE SAVER readable enough for someone opening it fresh."
+      ],
+      "support_task": [
+        "Remove weak or confusing profile wording."
+      ],
+      "planned_output": [
+        "Stronger public GitHub presence."
+      ],
+      "evidence_required": [
+        "GitHub profile README updated.",
+        "Pinned repo choices finalized.",
+        "Before and after screenshot if possible."
+      ],
+      "anti_distraction_warning": [
+        "Do not try to fake a huge profile.",
+        "Clarity beats volume."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 4,
+      "title": "Build A Simple Portfolio / Proof Page",
+      "main_goal": "Give yourself one clean place to show your work.",
+      "build_task": [
+        "Create a simple static page with who you are, what you build, PromptShield summary, LIFE SAVER summary, links, and a currently seeking internships note.",
+        "Keep it simple and deployable later if needed."
+      ],
+      "support_task": [
+        "Write project summaries for humans, not just developers."
+      ],
+      "planned_output": [
+        "Local portfolio or proof page."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of landing page.",
+        "Working links section."
+      ],
+      "anti_distraction_warning": [
+        "No fancy animation marathon.",
+        "One clean page is enough."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 5,
+      "title": "Add Internship Tracker To LIFE SAVER + Build Company List",
+      "main_goal": "Start the actual internship pipeline.",
+      "build_task": [
+        "Finish or improve the internship_actions section in LIFE SAVER with company, role, source, date, status, tailored resume, tailored message, and notes fields.",
+        "Build the first target company list."
+      ],
+      "support_task": [
+        "Prioritize companies where your current profile is realistic."
+      ],
+      "planned_output": [
+        "Internship tracker working.",
+        "First list of twenty to thirty target companies or roles."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of tracker page.",
+        "Target list file created."
+      ],
+      "anti_distraction_warning": [
+        "Do not collect two hundred random companies.",
+        "Quality shortlist only."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 6,
+      "title": "Application Batch 1",
+      "main_goal": "Stop preparing forever and start applying.",
+      "build_task": [
+        "Send five to ten targeted applications.",
+        "Tailor headline line, project emphasis, and short intro.",
+        "Log each application in LIFE SAVER."
+      ],
+      "support_task": [
+        "Prepare one short outreach message template for startups or founders."
+      ],
+      "planned_output": [
+        "First real application batch submitted."
+      ],
+      "evidence_required": [
+        "Application tracker entries.",
+        "Copies of tailored intros or messages.",
+        "Count of applications sent."
+      ],
+      "anti_distraction_warning": [
+        "Do not wait for a perfect profile.",
+        "Targeted imperfect action beats idealized delay."
+      ]
+    },
+    {
+      "week": 9,
+      "day": 7,
+      "title": "Review + Outreach System",
+      "main_goal": "Make internship action sustainable, not random.",
+      "build_task": [
+        "Complete Week 9 review in LIFE SAVER.",
+        "Review how many roles were found, how many were applied to, what roles matched best, and where the profile still feels weak.",
+        "Create a repeatable outreach checklist."
+      ],
+      "support_task": [
+        "Write one honest note about whether fear, confusion, or lack of preparation blocked applications."
+      ],
+      "planned_output": [
+        "Sustainable internship application flow.",
+        "Full Week 9 review saved."
+      ],
+      "evidence_required": [
+        "Weekly review saved.",
+        "Outreach checklist written.",
+        "Application summary note created."
+      ],
+      "anti_distraction_warning": [
+        "Do not jump into building another product today.",
+        "This week is won by action, not more planning."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 1,
+      "title": "Lock Scope For Internship Copilot Lite",
+      "main_goal": "Define the smallest useful version.",
+      "build_task": [
+        "Write the v1 scope.",
+        "Define inputs as job description text plus your fixed profile and project summary.",
+        "Define outputs as fit summary, missing skills, best project to highlight, and tailored intro.",
+        "Define what is explicitly not included."
+      ],
+      "support_task": [
+        "Write your fixed candidate profile once so you do not rewrite it every time."
+      ],
+      "planned_output": [
+        "v1 scope fixed.",
+        "Reusable profile text ready."
+      ],
+      "evidence_required": [
+        "Repo initialized.",
+        "README scope section written.",
+        "Profile summary file created."
+      ],
+      "anti_distraction_warning": [
+        "No scraping.",
+        "No database unless truly needed.",
+        "No overbuilt architecture."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 2,
+      "title": "Build Local App Skeleton",
+      "main_goal": "Get the small tool running quickly.",
+      "build_task": [
+        "Create a simple app or script UI.",
+        "Add the job description input field, profile or project data source, submit button, and result page."
+      ],
+      "support_task": [
+        "Keep the flow extremely simple."
+      ],
+      "planned_output": [
+        "Local tool accepts input and returns placeholder output."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of input form.",
+        "Screenshot of result placeholder."
+      ],
+      "anti_distraction_warning": [
+        "Ugly UI is fine.",
+        "Speed matters this week."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 3,
+      "title": "Build Matching Logic",
+      "main_goal": "Make the tool useful before making it smart.",
+      "build_task": [
+        "Implement initial matching logic that identifies keywords and skills in the job description.",
+        "Compare those with your fixed skill and project profile.",
+        "Output strong, medium, or weak fit and detect missing areas."
+      ],
+      "support_task": [
+        "Use simple scoring first and focus on clarity, not sophistication."
+      ],
+      "planned_output": [
+        "Role-fit result appears based on the job description input."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of two or three job analyses.",
+        "Note explaining the matching logic."
+      ],
+      "anti_distraction_warning": [
+        "No embeddings.",
+        "No vector search.",
+        "No overengineering."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 4,
+      "title": "Add AI Drafting For Tailored Intro",
+      "main_goal": "Turn matching into action.",
+      "build_task": [
+        "Add AI-assisted output that drafts a short application intro, role-specific project highlight, and why-you-fit summary.",
+        "Keep it grounded in your real profile data.",
+        "Use a static prompt structure for consistency."
+      ],
+      "support_task": [
+        "Write one strong prompt template for this task."
+      ],
+      "planned_output": [
+        "Tool generates useful application support text."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Screenshot of generated intro for two roles.",
+        "Saved prompt template or prompt notes."
+      ],
+      "anti_distraction_warning": [
+        "Do not let the tool hallucinate random achievements.",
+        "Keep output tied to your real profile."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 5,
+      "title": "Use It On Real Roles",
+      "main_goal": "Prove the tool helps your actual process.",
+      "build_task": [
+        "Run at least three real internship job descriptions through the tool.",
+        "Compare outputs.",
+        "Improve fit summary quality, missing-skill detection, project-highlighting logic, and intro usefulness."
+      ],
+      "support_task": [
+        "Record where the tool gives weak or generic output."
+      ],
+      "planned_output": [
+        "Real-world tested support tool."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Three saved example analyses.",
+        "Note listing at least three improvements made from real usage."
+      ],
+      "anti_distraction_warning": [
+        "Do not add more features before real testing."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 6,
+      "title": "Package The Tool + Integrate With LIFE SAVER",
+      "main_goal": "Make the project usable and connected to your journey.",
+      "build_task": [
+        "Improve the README.",
+        "Document what the tool does, who it helps, and its limitations.",
+        "Add a way to log in LIFE SAVER when the tool is used for a real application."
+      ],
+      "support_task": [
+        "Keep the integration simple and manual if needed."
+      ],
+      "planned_output": [
+        "Supporting project packaged and connected to workflow."
+      ],
+      "evidence_required": [
+        "Commit.",
+        "Updated README.",
+        "Screenshot of LIFE SAVER note or tracker update tied to tool usage."
+      ],
+      "anti_distraction_warning": [
+        "No giant integration architecture.",
+        "Practical connection is enough."
+      ]
+    },
+    {
+      "week": 10,
+      "day": 7,
+      "title": "Week 10 Review + Application Batch 2",
+      "main_goal": "Use the new tool to improve actual outreach.",
+      "build_task": [
+        "Send another five to ten targeted applications or outreach attempts.",
+        "Use Internship Copilot Lite for tailoring where relevant.",
+        "Complete Week 10 review in LIFE SAVER."
+      ],
+      "support_task": [
+        "Compare applications before using the tool and after using the tool."
+      ],
+      "planned_output": [
+        "Second application batch.",
+        "Supporting project actively useful."
+      ],
+      "evidence_required": [
+        "Tracker entries.",
+        "Tailored intros saved.",
+        "Week 10 review completed.",
+        "Note on how the tool improved your workflow."
+      ],
+      "anti_distraction_warning": [
+        "This week is won by usefulness, not complexity."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 1,
+      "title": "Role Bucket Strategy",
+      "main_goal": "Stop applying with one generic story to every role.",
+      "build_task": [
+        "Divide target roles into AI or GenAI Intern, Automation or Python Intern, and Security Automation or Cyber-AI Intern buckets.",
+        "For each bucket, write why you fit, which project should lead, which skills to emphasize, and what to de-emphasize."
+      ],
+      "support_task": [
+        "Map PromptShield, LIFE SAVER, and Internship Copilot Lite to the right role buckets."
+      ],
+      "planned_output": [
+        "Clear targeting strategy for different role types."
+      ],
+      "evidence_required": [
+        "Role bucket document created.",
+        "Project-to-role mapping written.",
+        "One note or screenshot inside LIFE SAVER."
+      ],
+      "anti_distraction_warning": [
+        "Do not create ten buckets.",
+        "Three clear buckets are enough."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 2,
+      "title": "Message Template Day",
+      "main_goal": "Create reusable but not robotic outreach.",
+      "build_task": [
+        "Write one founder or startup outreach template, one recruiter or application note template, and one follow-up template.",
+        "Make separate variations for at least two role buckets.",
+        "Include project references naturally."
+      ],
+      "support_task": [
+        "Keep messages concise and proof-based."
+      ],
+      "planned_output": [
+        "Multiple reusable outreach templates."
+      ],
+      "evidence_required": [
+        "Templates written and saved.",
+        "At least two tailored variants.",
+        "Note on where each template will be used."
+      ],
+      "anti_distraction_warning": [
+        "No over-polished corporate writing.",
+        "Natural and clear is better."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 3,
+      "title": "Interview Story Prep",
+      "main_goal": "Become able to talk about your projects like a builder.",
+      "build_task": [
+        "Prepare structured answers for tell me about yourself, tell me about PromptShield, what challenges you faced, how you used AI, what security angle you considered, and what you would improve next.",
+        "Make one project explanation sheet for PromptShield and one for LIFE SAVER."
+      ],
+      "support_task": [
+        "Say the answers out loud, not just write them."
+      ],
+      "planned_output": [
+        "Interview-ready project narratives."
+      ],
+      "evidence_required": [
+        "Answer sheet saved.",
+        "Project explanation notes saved.",
+        "Self-review note on weak answers."
+      ],
+      "anti_distraction_warning": [
+        "No memorized robot answers.",
+        "Focus on understanding and clarity."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 4,
+      "title": "Weak Spot Fix Day",
+      "main_goal": "Improve what will actually hurt applications or interviews.",
+      "build_task": [
+        "Pick the top two or three weak points from docs, portfolio, resume bullets, missing screenshots, unclear GitHub setup, or missing demo links.",
+        "Fix only those high-impact issues."
+      ],
+      "support_task": [
+        "Choose fixes based on what blocks trust, not on what is fun."
+      ],
+      "planned_output": [
+        "Fewer obvious weak spots in your public proof."
+      ],
+      "evidence_required": [
+        "Commit or updated files.",
+        "Before and after note.",
+        "Screenshots if relevant."
+      ],
+      "anti_distraction_warning": [
+        "Do not start polishing random details recruiters will never care about."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 5,
+      "title": "Application Batch 3 + Follow-Ups",
+      "main_goal": "Increase real market exposure.",
+      "build_task": [
+        "Send another five to ten targeted applications.",
+        "Send follow-ups where appropriate.",
+        "Tailor by role bucket and use templates and supporting tools where useful.",
+        "Log everything in LIFE SAVER."
+      ],
+      "support_task": [
+        "Prioritize roles where your profile is strongest."
+      ],
+      "planned_output": [
+        "Third meaningful outreach and application batch."
+      ],
+      "evidence_required": [
+        "Tracker entries updated.",
+        "Follow-up message copies saved.",
+        "Count of applications and follow-ups logged."
+      ],
+      "anti_distraction_warning": [
+        "Do not hide in preparation again.",
+        "Action matters today."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 6,
+      "title": "Mock Review Day",
+      "main_goal": "Simulate outside evaluation.",
+      "build_task": [
+        "Review your GitHub profile, PromptShield repo, resume, portfolio page, and outreach message as if you were a recruiter.",
+        "Write three reasons someone might shortlist you and three reasons someone might skip you.",
+        "Fix one issue if it is easy."
+      ],
+      "support_task": [
+        "Be brutally honest and specific."
+      ],
+      "planned_output": [
+        "Clearer view of what still needs improvement."
+      ],
+      "evidence_required": [
+        "Mock review note created.",
+        "Shortlist and skip reasons written.",
+        "One easy fix made if possible."
+      ],
+      "anti_distraction_warning": [
+        "Do not turn this into self-criticism paralysis.",
+        "Use the review to improve, not freeze."
+      ]
+    },
+    {
+      "week": 11,
+      "day": 7,
+      "title": "Week 11 Review + Final Sprint Setup",
+      "main_goal": "Prepare the last week for maximum value.",
+      "build_task": [
+        "Complete Week 11 review in LIFE SAVER.",
+        "Summarize which roles feel best matched, what outreach worked best, what project story lands best, and what still feels weak.",
+        "Define the focus of Week 12."
+      ],
+      "support_task": [
+        "Decide what one thing would make the biggest difference in the final week."
+      ],
+      "planned_output": [
+        "Clear setup for the last week of the sprint."
+      ],
+      "evidence_required": [
+        "Week 11 review saved.",
+        "Final sprint focus written.",
+        "Tracker updated."
+      ],
+      "anti_distraction_warning": [
+        "Do not start Week 12 tasks today.",
+        "Close this week cleanly."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 1,
+      "title": "Sprint Asset Audit",
+      "main_goal": "Review every important proof asset in one place.",
+      "build_task": [
+        "Make a final checklist for PromptShield repo, LIFE SAVER repo, supporting project, GitHub profile, resume, portfolio page, and application tracker.",
+        "Mark each asset as ready, needs light polish, or weak.",
+        "Choose only the top final improvements that actually matter."
+      ],
+      "support_task": [
+        "Keep the checklist tight and practical."
+      ],
+      "planned_output": [
+        "Final sprint asset checklist.",
+        "Top high-impact polish list."
+      ],
+      "evidence_required": [
+        "Checklist written and saved.",
+        "Priority list created.",
+        "Note inside LIFE SAVER if relevant."
+      ],
+      "anti_distraction_warning": [
+        "Do not turn this into a giant rebuild plan.",
+        "The point is finishing, not reopening everything."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 2,
+      "title": "Final High-Impact Fixes",
+      "main_goal": "Clean the last obvious weak points.",
+      "build_task": [
+        "Fix only the most valuable two to four issues such as unclear setup instructions, weak screenshots, vague project bullets, poor portfolio copy, missing demo links, or confusing project naming."
+      ],
+      "support_task": [
+        "Prioritize what affects trust and clarity."
+      ],
+      "planned_output": [
+        "Assets feel tighter and more professional."
+      ],
+      "evidence_required": [
+        "Commits or updated files.",
+        "Before and after note.",
+        "Screenshots if relevant."
+      ],
+      "anti_distraction_warning": [
+        "Do not add new features.",
+        "Polish clarity, not scope."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 3,
+      "title": "Final Resume + Public Profile Lock",
+      "main_goal": "Freeze a strong shareable version of your profile.",
+      "build_task": [
+        "Finalize resume v3.",
+        "Review GitHub profile again.",
+        "Review portfolio page again.",
+        "Make sure links work and PromptShield is clearly first or prominent."
+      ],
+      "support_task": [
+        "Read all public-facing text as if you were a recruiter seeing it for the first time."
+      ],
+      "planned_output": [
+        "One locked shareable profile package."
+      ],
+      "evidence_required": [
+        "Final resume exported.",
+        "Link checklist completed.",
+        "Final text reviewed."
+      ],
+      "anti_distraction_warning": [
+        "No endless wording tweaks.",
+        "Once clear and honest, lock it."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 4,
+      "title": "Final Application Push",
+      "main_goal": "End the sprint with outward action.",
+      "build_task": [
+        "Send the final sprint batch of five to ten targeted applications or outreach messages.",
+        "Use the strongest project framing and templates now available.",
+        "Follow up where appropriate.",
+        "Log everything in LIFE SAVER."
+      ],
+      "support_task": [
+        "Prioritize better-fit roles over volume."
+      ],
+      "planned_output": [
+        "Final application batch sent."
+      ],
+      "evidence_required": [
+        "Application entries logged.",
+        "Copies of tailored messages saved.",
+        "Count of submissions recorded."
+      ],
+      "anti_distraction_warning": [
+        "Do not wait for future perfection.",
+        "Act with the proof you have built."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 5,
+      "title": "Full 12-Week Reflection",
+      "main_goal": "Extract the truth from the sprint.",
+      "build_task": [
+        "Write a twelve-week reflection in LIFE SAVER or markdown.",
+        "Answer what you built, what you learned technically, what you learned about your focus, what part of AI, cyber, or automation fits you best, where you wasted time, what you are better at now, and what proof you now have."
+      ],
+      "support_task": [
+        "Be honest, not dramatic."
+      ],
+      "planned_output": [
+        "Complete sprint reflection document."
+      ],
+      "evidence_required": [
+        "Reflection saved.",
+        "Summary of shipped work listed.",
+        "Three strongest wins identified."
+      ],
+      "anti_distraction_warning": [
+        "Do not write fantasy lessons.",
+        "Write what really happened."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 6,
+      "title": "Next 30-Day Continuation Plan",
+      "main_goal": "Avoid post-sprint drift.",
+      "build_task": [
+        "Define the next thirty days after the sprint.",
+        "Choose one primary focus such as internship conversion, project refinement, interview prep, or one targeted enhancement.",
+        "Create weekly targets, minimum evidence rules, application target, and one skill gap to improve."
+      ],
+      "support_task": [
+        "Keep the next plan light and executable instead of building another huge twelve-week roadmap."
+      ],
+      "planned_output": [
+        "One thirty-day continuation plan."
+      ],
+      "evidence_required": [
+        "Next thirty-day document saved.",
+        "Weekly targets written.",
+        "Focus locked."
+      ],
+      "anti_distraction_warning": [
+        "Continuation plan should reduce confusion, not create more of it."
+      ]
+    },
+    {
+      "week": 12,
+      "day": 7,
+      "title": "Sprint Closeout + Identity Lock",
+      "main_goal": "Close the sprint properly.",
+      "build_task": [
+        "Complete Week 12 review in LIFE SAVER.",
+        "Write the sprint closeout note with final project list, final role targets, current strengths, current weaknesses, and next move.",
+        "Export the final codex-context or summary files.",
+        "Write one final line describing who you are now as a builder."
+      ],
+      "support_task": [
+        "Lock your direction with confidence and honesty."
+      ],
+      "planned_output": [
+        "Full sprint closeout complete.",
+        "Identity and direction locked."
+      ],
+      "evidence_required": [
+        "Week 12 review saved.",
+        "Sprint closeout saved.",
+        "Export generated.",
+        "Roadmap marked complete."
+      ],
+      "anti_distraction_warning": [
+        "Do not reopen the sprint.",
+        "Close it with confidence and honesty."
+      ]
+    }
+  ]
+}

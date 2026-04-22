@@ -1,0 +1,364 @@
+{
+  "app_name": "LIFE SAVER",
+  "version": "v1-roadmap-seed",
+  "mission": "Build real proof in AI, automation, and cybersecurity over 12 weeks through shipped projects, honest execution tracking, and internship-focused packaging.",
+  "identity": "B.Tech CSE (Cybersecurity) student building AI tools, automation systems, and security-aware applications.",
+  "phases": [
+    {
+      "phase_number": 1,
+      "title": "Foundation and Execution Discipline",
+      "start_week": 1,
+      "end_week": 4,
+      "goal": "Build the execution system, ship the first security-aware AI tool, and create a stable working rhythm."
+    },
+    {
+      "phase_number": 2,
+      "title": "Flagship Project Buildout",
+      "start_week": 5,
+      "end_week": 8,
+      "goal": "Turn PromptShield into a real flagship project that is structured, explainable, and internship-grade."
+    },
+    {
+      "phase_number": 3,
+      "title": "Packaging, Outreach, and Conversion",
+      "start_week": 9,
+      "end_week": 12,
+      "goal": "Package the work, apply to roles, improve outreach, and close the sprint with proof and clarity."
+    }
+  ],
+  "weeks": [
+    {
+      "week_number": 1,
+      "phase_number": 1,
+      "theme": "Build the execution system",
+      "goal": "Ship the first working version of LIFE SAVER.",
+      "success_definition": [
+        "LIFE SAVER runs locally.",
+        "SQLite is connected.",
+        "Daily check-in works.",
+        "Weekly roadmap page is visible.",
+        "Mission and week data are entered."
+      ],
+      "rules": [
+        "Tutorial time max 45 minutes per day.",
+        "Every day must create proof.",
+        "No redesign rabbit hole.",
+        "No second project this week.",
+        "No switching stack."
+      ],
+      "deliverables": [
+        "Working local LIFE SAVER app",
+        "Four core pages",
+        "SQLite schema",
+        "First saved daily check-in",
+        "Week 1 task seed",
+        "Weekly review page"
+      ]
+    },
+    {
+      "week_number": 2,
+      "phase_number": 1,
+      "theme": "First cyber-aware AI tool",
+      "goal": "Build PromptShield v0.",
+      "success_definition": [
+        "PromptShield runs locally.",
+        "The app accepts risky text or prompts.",
+        "The app returns risk score, verdict, and matched patterns.",
+        "At least 10 sample inputs produce different outputs.",
+        "The whole week is logged in LIFE SAVER."
+      ],
+      "rules": [
+        "Tutorial time max 45 minutes per day.",
+        "Use LIFE SAVER daily before ending the day.",
+        "No switching to a new stack.",
+        "No LangChain, no agents, no vector database.",
+        "This week is about working logic, not pretty UI."
+      ],
+      "deliverables": [
+        "PromptShield local app",
+        "Four basic risk categories",
+        "Sample case dataset",
+        "Rule-based detectors",
+        "Risk scoring and verdict system",
+        "Honest README"
+      ]
+    },
+    {
+      "week_number": 3,
+      "phase_number": 1,
+      "theme": "Explainable and safer PromptShield",
+      "goal": "Add AI-assisted explanation, redaction, and scan history.",
+      "success_definition": [
+        "Rule-based and AI-assisted reasoning both work.",
+        "Sensitive content is redacted before model analysis.",
+        "Scan history persists.",
+        "Results show score, categories, why, action, and safer guidance.",
+        "Five or six meaningful cases can be demoed cleanly."
+      ],
+      "rules": [
+        "Tutorial time max 45 minutes per day.",
+        "No new project this week.",
+        "No changing stack.",
+        "No vector database, agents, or auth.",
+        "AI explains, but rules decide."
+      ],
+      "deliverables": [
+        "Modular PromptShield structure",
+        "Scan history",
+        "Optional AI explanation layer",
+        "Sensitive data redaction flow",
+        "Safer result UX",
+        "Stronger test set"
+      ]
+    },
+    {
+      "week_number": 4,
+      "phase_number": 1,
+      "theme": "Lock the foundation",
+      "goal": "Stabilize LIFE SAVER and PromptShield and improve public positioning.",
+      "success_definition": [
+        "LIFE SAVER is usable every day without friction.",
+        "PromptShield can be demoed in three to five minutes.",
+        "GitHub profile clearly reflects AI + automation + cybersecurity.",
+        "First resume draft exists.",
+        "Month one progress is visible from the outside."
+      ],
+      "rules": [
+        "No new major project.",
+        "No stack switching.",
+        "No deep redesign.",
+        "Keep daily evidence going.",
+        "Optimize for clarity, stability, and presentation."
+      ],
+      "deliverables": [
+        "Improved LIFE SAVER usability",
+        "Codex context export",
+        "More stable PromptShield",
+        "Updated GitHub profile",
+        "Resume v1",
+        "Demo and explanation notes"
+      ]
+    },
+    {
+      "week_number": 5,
+      "phase_number": 2,
+      "theme": "API-first security console",
+      "goal": "Turn PromptShield into a usable security console with persistence and review flow.",
+      "success_definition": [
+        "Text can be scanned through UI or API.",
+        "Saved scans appear in a queue.",
+        "Detail view explains how a verdict was reached.",
+        "Analyst review states can be updated.",
+        "The system can be explained like a mini security tool."
+      ],
+      "rules": [
+        "No new project.",
+        "No auth.",
+        "No payments.",
+        "No browser extension.",
+        "No deployment rabbit hole."
+      ],
+      "deliverables": [
+        "API routes",
+        "Saved scan records",
+        "Incident queue",
+        "Incident detail page",
+        "Analyst review workflow",
+        "Test harness"
+      ]
+    },
+    {
+      "week_number": 6,
+      "phase_number": 2,
+      "theme": "Real-world input expansion",
+      "goal": "Expand PromptShield to more realistic input types.",
+      "success_definition": [
+        "PromptShield supports at least two input modes.",
+        "Email-style content is analyzed differently from generic prompts.",
+        "Input mode is stored and shown in results.",
+        "File or large-text input works for simple cases.",
+        "The product demonstrates a more practical use case than Week 5."
+      ],
+      "rules": [
+        "No new product.",
+        "No browser extension.",
+        "No Chrome plugin.",
+        "No OCR.",
+        "No PDF parser unless extremely lightweight."
+      ],
+      "deliverables": [
+        "Input mode selection",
+        "Email-focused detection",
+        "Mode-aware explanations",
+        "Simple text file support",
+        "Realistic scenario testing"
+      ]
+    },
+    {
+      "week_number": 7,
+      "phase_number": 2,
+      "theme": "Reviewable, reportable, and tunable",
+      "goal": "Make PromptShield feel like a mini analyst workstation.",
+      "success_definition": [
+        "Overview dashboard shows real summary metrics.",
+        "Analyst notes are richer than a simple status.",
+        "Incident reports can be exported.",
+        "Score tuning is configurable and explainable.",
+        "Failure handling is stronger."
+      ],
+      "rules": [
+        "No new project.",
+        "No major framework shift.",
+        "No auth.",
+        "Prefer HTML, Markdown, or JSON export over complex formats.",
+        "Every day must end with evidence in LIFE SAVER."
+      ],
+      "deliverables": [
+        "Overview dashboard",
+        "Improved analyst review fields",
+        "Report export",
+        "Tuning config",
+        "Better error handling",
+        "Stronger README and screenshots"
+      ]
+    },
+    {
+      "week_number": 8,
+      "phase_number": 2,
+      "theme": "Flagship packaging",
+      "goal": "Make PromptShield internship-grade and portfolio-ready.",
+      "success_definition": [
+        "PromptShield works end to end.",
+        "README, architecture story, and demo flow are clear.",
+        "The project can sit at the top of the resume.",
+        "Limitations and future improvements are documented.",
+        "GitHub and resume use PromptShield as flagship proof."
+      ],
+      "rules": [
+        "No new large features unless they are tiny and clearly useful.",
+        "No framework migration.",
+        "No major rewrite.",
+        "No chasing perfection.",
+        "Focus on packaging, clarity, and credibility."
+      ],
+      "deliverables": [
+        "PromptShield v1",
+        "Polished README",
+        "Architecture or case study doc",
+        "Demo asset",
+        "Stronger GitHub positioning",
+        "Updated resume bullets"
+      ]
+    },
+    {
+      "week_number": 9,
+      "phase_number": 3,
+      "theme": "Package for the market",
+      "goal": "Turn projects into internship-ready public proof.",
+      "success_definition": [
+        "Resume v2 exists.",
+        "GitHub profile is clearer.",
+        "A simple portfolio or proof page exists.",
+        "LIFE SAVER tracks internship actions.",
+        "First targeted application batch is sent."
+      ],
+      "rules": [
+        "No new major flagship project.",
+        "No PromptShield redesign from scratch.",
+        "No overthinking the perfect resume.",
+        "No mass spam applications.",
+        "Every application must be at least somewhat targeted."
+      ],
+      "deliverables": [
+        "Positioning statement",
+        "Resume v2",
+        "Improved GitHub profile",
+        "Portfolio or proof page",
+        "Internship tracker",
+        "First targeted application batch"
+      ]
+    },
+    {
+      "week_number": 10,
+      "phase_number": 3,
+      "theme": "Build a lightweight support automation tool",
+      "goal": "Ship Internship Copilot Lite to support real internship applications.",
+      "success_definition": [
+        "The tool accepts a job description and fixed candidate profile.",
+        "It returns role fit, missing gaps, best project to highlight, and a tailored intro.",
+        "The tool is used on at least three real roles.",
+        "It supports actual applications without derailing PromptShield or LIFE SAVER."
+      ],
+      "rules": [
+        "Build only a small support tool.",
+        "No giant dashboard.",
+        "No auth.",
+        "No job scraping engine.",
+        "No Chrome extension."
+      ],
+      "deliverables": [
+        "Internship Copilot Lite",
+        "Job-fit logic",
+        "AI-assisted tailored intro generation",
+        "Three real-job analyses",
+        "LIFE SAVER integration note",
+        "Second application batch"
+      ]
+    },
+    {
+      "week_number": 11,
+      "phase_number": 3,
+      "theme": "Convert projects into opportunities",
+      "goal": "Improve role targeting, outreach quality, and interview readiness.",
+      "success_definition": [
+        "Role buckets are defined.",
+        "Message templates exist.",
+        "PromptShield and LIFE SAVER can be explained clearly in interview style.",
+        "Another meaningful application batch is sent.",
+        "Last major weak spots are identified and improved."
+      ],
+      "rules": [
+        "No new major project.",
+        "No redesigning everything.",
+        "Only small fixes on existing projects if they help interviews and applications.",
+        "Prioritize clarity, messaging, and consistent outreach.",
+        "Every day still creates evidence."
+      ],
+      "deliverables": [
+        "Role bucket strategy",
+        "Outreach templates",
+        "Interview explanation sheets",
+        "High-impact weak spot fixes",
+        "Application batch three and follow-ups"
+      ]
+    },
+    {
+      "week_number": 12,
+      "phase_number": 3,
+      "theme": "Finish the sprint like a professional",
+      "goal": "Close the 12-week sprint with visible proof and a clear next step.",
+      "success_definition": [
+        "Core assets are polished enough to share confidently.",
+        "Full 12-week review is complete.",
+        "Final application batch is sent.",
+        "Next 30-day continuation plan is defined.",
+        "Final identity and direction are clear."
+      ],
+      "rules": [
+        "No new major build.",
+        "No unnecessary rewrites.",
+        "Only high-impact fixes.",
+        "No overthinking what should have happened.",
+        "Close the sprint with discipline."
+      ],
+      "deliverables": [
+        "Final polished assets",
+        "Final resume and public profile package",
+        "Final application batch",
+        "Full 12-week reflection",
+        "Next 30-day continuation plan",
+        "Sprint closeout export"
+      ]
+    }
+  ]
+}

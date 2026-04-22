@@ -1,0 +1,372 @@
+{
+  "app_name": "LIFE SAVER",
+  "templates": [
+    {
+      "week_number": 1,
+      "success_definition": [
+        "LIFE SAVER runs locally.",
+        "SQLite is connected.",
+        "Daily check-in works.",
+        "Weekly roadmap page is visible.",
+        "Mission and week data are entered."
+      ],
+      "bad_week_signals": [
+        "Watched Flask tutorials but app still did not run.",
+        "Kept changing stack choices.",
+        "Spent most time on UI instead of working pages.",
+        "Wrote plans but saved no real data.",
+        "Started another project."
+      ],
+      "strong_week_signals": [
+        "The app works locally.",
+        "Data is actually being saved.",
+        "The system can be used in Week 2.",
+        "There is visible proof on GitHub."
+      ],
+      "deliverables": [
+        "Working local LIFE SAVER app",
+        "Four core pages",
+        "SQLite schema",
+        "First saved daily check-in",
+        "Week 1 task seed",
+        "Weekly review page"
+      ]
+    },
+    {
+      "week_number": 2,
+      "success_definition": [
+        "PromptShield runs locally.",
+        "The app accepts risky text or prompts.",
+        "The app returns risk score, verdict, and matched patterns.",
+        "At least 10 sample inputs produce different outputs.",
+        "The whole week is logged in LIFE SAVER."
+      ],
+      "bad_week_signals": [
+        "Spent most of the week researching prompt injection but built no detector.",
+        "Kept changing the project idea.",
+        "Added UI polish without working logic.",
+        "Used AI-generated code but could not explain the flow.",
+        "No sample test set exists."
+      ],
+      "strong_week_signals": [
+        "A working analyzer exists.",
+        "The logic is simple but real.",
+        "Each module can be explained.",
+        "GitHub shows proof.",
+        "LIFE SAVER has real evidence for the week."
+      ],
+      "deliverables": [
+        "PromptShield local app",
+        "Four basic risk categories",
+        "Sample case dataset",
+        "Rule-based detectors",
+        "Risk scoring and verdict system",
+        "Honest README"
+      ]
+    },
+    {
+      "week_number": 3,
+      "success_definition": [
+        "Rule-based and AI-assisted reasoning both work.",
+        "Sensitive content is redacted before model analysis.",
+        "Scan history persists.",
+        "Results show score, categories, why, action, and safer guidance.",
+        "Five or six meaningful cases can be demoed cleanly."
+      ],
+      "bad_week_signals": [
+        "Added AI but broke the app.",
+        "Model output is vague and uncontrolled.",
+        "No redaction or safety thinking was added.",
+        "No meaningful testing happened.",
+        "The verdict flow cannot be explained."
+      ],
+      "strong_week_signals": [
+        "PromptShield feels more believable while staying understandable.",
+        "The hybrid rule-plus-AI architecture can be explained clearly.",
+        "The repo looks like real engineering work.",
+        "LIFE SAVER shows consistent build evidence."
+      ],
+      "deliverables": [
+        "Modular PromptShield structure",
+        "Scan history",
+        "Optional AI explanation layer",
+        "Sensitive data redaction flow",
+        "Safer result UX",
+        "Stronger test set"
+      ]
+    },
+    {
+      "week_number": 4,
+      "success_definition": [
+        "LIFE SAVER is usable every day without friction.",
+        "PromptShield can be demoed in three to five minutes.",
+        "GitHub profile clearly reflects AI + automation + cybersecurity.",
+        "First resume draft exists.",
+        "Month one progress is visible from the outside."
+      ],
+      "bad_week_signals": [
+        "Spent the week only thinking about the next big project.",
+        "Did no packaging or cleanup.",
+        "Still no resume draft exists.",
+        "GitHub profile is still vague.",
+        "LIFE SAVER exists but is not really usable."
+      ],
+      "strong_week_signals": [
+        "Month one looks real from the outside.",
+        "There is a tracked system, a presentable project, and stronger positioning.",
+        "The foundation is ready for Phase 2."
+      ],
+      "deliverables": [
+        "Improved LIFE SAVER usability",
+        "Codex context export",
+        "More stable PromptShield",
+        "Updated GitHub profile",
+        "Resume v1",
+        "Demo and explanation notes"
+      ]
+    },
+    {
+      "week_number": 5,
+      "success_definition": [
+        "Text can be scanned through UI or API.",
+        "Saved scans appear in a queue.",
+        "Detail view explains how a verdict was reached.",
+        "Analyst review states can be updated.",
+        "The system can be explained like a mini security tool."
+      ],
+      "bad_week_signals": [
+        "Backend still returns loose, unstructured output.",
+        "No persistence exists.",
+        "No queue or history page exists.",
+        "No testing happened.",
+        "README is still vague."
+      ],
+      "strong_week_signals": [
+        "PromptShield looks like a small but real security product.",
+        "Data flow, review flow, and scoring can be explained clearly.",
+        "GitHub shows engineering maturity instead of just idea energy."
+      ],
+      "deliverables": [
+        "API routes",
+        "Saved scan records",
+        "Incident queue",
+        "Incident detail page",
+        "Analyst review workflow",
+        "Test harness"
+      ]
+    },
+    {
+      "week_number": 6,
+      "success_definition": [
+        "PromptShield supports at least two input modes.",
+        "Email-style content is analyzed differently from generic prompts.",
+        "Input mode is stored and shown in results.",
+        "File or large-text input works for simple cases.",
+        "The product demonstrates a more practical use case than Week 5."
+      ],
+      "bad_week_signals": [
+        "Input modes were added only visually, not logically.",
+        "Email support is just renamed prompt detection.",
+        "No realistic test cases exist.",
+        "File support breaks the flow.",
+        "Packaging and explanation updates were skipped."
+      ],
+      "strong_week_signals": [
+        "PromptShield handles more believable security use cases.",
+        "The project can now speak about social engineering, prompt abuse, and safe handling together.",
+        "The GitHub story is getting stronger without becoming scattered."
+      ],
+      "deliverables": [
+        "Input mode selection",
+        "Email-focused detection",
+        "Mode-aware explanations",
+        "Simple text file support",
+        "Realistic scenario testing"
+      ]
+    },
+    {
+      "week_number": 7,
+      "success_definition": [
+        "Overview dashboard shows real summary metrics.",
+        "Analyst notes are richer than a simple status.",
+        "Incident reports can be exported.",
+        "Score tuning is configurable and explainable.",
+        "Failure handling is stronger."
+      ],
+      "bad_week_signals": [
+        "Many ideas were added but no reporting flow was finished.",
+        "No real export exists.",
+        "Review quality did not improve.",
+        "The product is still fragile on bad input.",
+        "There is no visible public improvement."
+      ],
+      "strong_week_signals": [
+        "PromptShield looks like a small, thoughtful security product.",
+        "Scanning, reviewing, exporting, and tuning work as one coherent workflow.",
+        "GitHub shows product maturity."
+      ],
+      "deliverables": [
+        "Overview dashboard",
+        "Improved analyst review fields",
+        "Report export",
+        "Tuning config",
+        "Better error handling",
+        "Stronger README and screenshots"
+      ]
+    },
+    {
+      "week_number": 8,
+      "success_definition": [
+        "PromptShield works end to end.",
+        "README, architecture story, and demo flow are clear.",
+        "The project can sit at the top of the resume.",
+        "Limitations and future improvements are documented.",
+        "GitHub and resume use PromptShield as flagship proof."
+      ],
+      "bad_week_signals": [
+        "More random features were added but clarity did not improve.",
+        "README and documentation are still weak.",
+        "No demo story exists.",
+        "The project is not packaged for resume or interviews.",
+        "No phase closeout happened."
+      ],
+      "strong_week_signals": [
+        "PromptShield clearly looks like the flagship project.",
+        "Both technical and product decisions can be explained.",
+        "It fits the AI + cybersecurity positioning clearly.",
+        "Phase 3 can begin from a stronger base."
+      ],
+      "deliverables": [
+        "PromptShield v1",
+        "Polished README",
+        "Architecture or case study doc",
+        "Demo asset",
+        "Stronger GitHub positioning",
+        "Updated resume bullets"
+      ]
+    },
+    {
+      "week_number": 9,
+      "success_definition": [
+        "Resume v2 exists.",
+        "GitHub profile is clearer.",
+        "A simple portfolio or proof page exists.",
+        "LIFE SAVER tracks internship actions.",
+        "First targeted application batch is sent."
+      ],
+      "bad_week_signals": [
+        "Spent all week tweaking words and applied nowhere.",
+        "Still no real resume exists.",
+        "Still no portfolio or proof page exists.",
+        "No application tracking exists.",
+        "No targeted outreach started."
+      ],
+      "strong_week_signals": [
+        "The profile is understandable to the market.",
+        "The work is packageable.",
+        "Applications have already started.",
+        "LIFE SAVER now tracks internship outcomes as well as build progress."
+      ],
+      "deliverables": [
+        "Positioning statement",
+        "Resume v2",
+        "Improved GitHub profile",
+        "Portfolio or proof page",
+        "Internship tracker",
+        "First targeted application batch"
+      ]
+    },
+    {
+      "week_number": 10,
+      "success_definition": [
+        "The tool accepts a job description and fixed candidate profile.",
+        "It returns role fit, missing gaps, best project to highlight, and a tailored intro.",
+        "The tool is used on at least three real roles.",
+        "It supports actual applications without derailing PromptShield or LIFE SAVER."
+      ],
+      "bad_week_signals": [
+        "The support tool became another oversized product.",
+        "It was never used on real roles.",
+        "No applications were sent.",
+        "AI outputs are generic and ungrounded.",
+        "There is no connection to the real internship workflow."
+      ],
+      "strong_week_signals": [
+        "A compact, useful support tool was built quickly.",
+        "It directly helps internship actions.",
+        "It strengthens the AI + automation profile.",
+        "Focus was kept without abandoning the bigger plan."
+      ],
+      "deliverables": [
+        "Internship Copilot Lite",
+        "Job-fit logic",
+        "AI-assisted tailored intro generation",
+        "Three real-job analyses",
+        "LIFE SAVER integration note",
+        "Second application batch"
+      ]
+    },
+    {
+      "week_number": 11,
+      "success_definition": [
+        "Role buckets are defined.",
+        "Message templates exist.",
+        "PromptShield and LIFE SAVER can be explained clearly in interview style.",
+        "Another meaningful application batch is sent.",
+        "Last major weak spots are identified and improved."
+      ],
+      "bad_week_signals": [
+        "No applications were sent.",
+        "There is still no interview explanation ready.",
+        "Time was spent polishing code nobody asked about.",
+        "No role targeting strategy exists.",
+        "No follow-ups were sent."
+      ],
+      "strong_week_signals": [
+        "The projects can now be explained clearly.",
+        "Applications are sharper and more tailored.",
+        "The profile feels more coherent.",
+        "Action is converting effort into opportunities."
+      ],
+      "deliverables": [
+        "Role bucket strategy",
+        "Outreach templates",
+        "Interview explanation sheets",
+        "High-impact weak spot fixes",
+        "Application batch three and follow-ups"
+      ]
+    },
+    {
+      "week_number": 12,
+      "success_definition": [
+        "Core assets are polished enough to share confidently.",
+        "Full 12-week review is complete.",
+        "Final application batch is sent.",
+        "Next 30-day continuation plan is defined.",
+        "Final identity and direction are clear."
+      ],
+      "bad_week_signals": [
+        "Spent the week worrying instead of closing.",
+        "No final review exists.",
+        "No application push happened.",
+        "No continuation plan exists.",
+        "There is no clear summary of what was built."
+      ],
+      "strong_week_signals": [
+        "The sprint ends with clarity.",
+        "The work is visible and shareable.",
+        "Identity is stronger.",
+        "There is both proof and a next step.",
+        "Motivation is no longer the only system."
+      ],
+      "deliverables": [
+        "Final polished assets",
+        "Final resume and public profile package",
+        "Final application batch",
+        "Full 12-week reflection",
+        "Next 30-day continuation plan",
+        "Sprint closeout export"
+      ]
+    }
+  ]
+}
