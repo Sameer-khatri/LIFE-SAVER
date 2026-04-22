@@ -1,0 +1,1 @@
+LIFE SAVER is a personal execution system built on Flask and SQLite. It tracks daily check-ins, task progress, evidence logs, and weekly reviews across a 12-week roadmap focused on building real proof in AI, automation, and cybersecurity.
