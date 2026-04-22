@@ -3,6 +3,10 @@
 ## Mission
 Build real proof in AI, automation, and cybersecurity over 12 weeks through shipped projects, honest execution tracking, and internship-focused packaging.
 
+Phase 1: Foundation and Execution Discipline
+Phase 2: Flagship Project Buildout
+Phase 3: Packaging, Outreach, and Conversion
+
 ## Identity
 B.Tech CSE (Cybersecurity) student building AI tools, automation systems, and security-aware applications.
 
